@@ -32,11 +32,15 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-.notebook_tmp/
+.notebook_temp/
 
-# Animation temporary files
+# Animation temporary files (cache)
 .animation_temp/
 animation_temp/
+__pycache__/matplotlib/
+
+# Note: gifs/ and images/ folders ARE committed to GitHub
+# These contain the generated outputs
 
 # IDE
 .vscode/
